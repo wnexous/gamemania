@@ -1,0 +1,79 @@
+#topBar {
+    margin-left: 1%;
+    padding-bottom: 2%;
+}
+
+#searchBarInput {
+    margin-left: 20%;
+    padding-bottom: 1%;
+    padding-right: 20%;
+    border: 30%;
+    background-color: #F1F7EE;
+    opacity: 50%;
+    border: 5px black;
+}
+
+#id {
+    background-image: url("imagens/PHOTO_CARROUSEL.jpg");
+    width: 100px;
+    /*width of your image*/
+    height: 100px;
+    /*height of your image*/
+}
+
+#carrousel {
+    height: 50%;
+    width: 100%;
+}
+
+#titleCarrousel {
+    margin-top: -35%;
+    margin-left: 35%;
+    color: #F1F7EE;
+    font-size: 300%;
+
+}
+
+#barSelection {
+    padding: 3.3in;
+    background-color: #1F1F1F;
+}
+
+#bodyGallery {
+    background-color: white;
+}
+
+#footer {
+    background-color: #1F1F1F;
+    padding-bottom: 20%;
+}
+
+#backgroundItem {
+    background-color: #1F1F1F;
+    padding-right: 20%;
+    padding-top: 18%;
+    padding-bottom: 2%;
+    margin-right: -3%;
+    border-radius: 2%;
+    margin-left: 3%;
+    margin-top: 10%;
+    text-align: left;
+}
+
+#item {
+    height: 300px;
+    width: 400px;
+}
+
+#spacament {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#descriptionTextBox {
+    color: #1F1F1F;
+}
+.item {
+    background-color: black;
+    padding-left: 10%;
+}
