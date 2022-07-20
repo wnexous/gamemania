@@ -31,17 +31,16 @@
     margin-left: 35%;
     color: #F1F7EE;
     font-size: 300%;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
 #barSelection {
-    padding: 3.3in;
+    padding: 17%;
     background-color: #1F1F1F;
 }
 
-#bodyGallery {
-    background-color: white;
-}
+
 
 #footer {
     background-color: #1F1F1F;
@@ -60,10 +59,6 @@
     text-align: left;
 }
 
-#item {
-    height: 300px;
-    width: 400px;
-}
 
 #spacament {
     margin-top: 2%;
@@ -73,7 +68,41 @@
 #descriptionTextBox {
     color: #1F1F1F;
 }
-.item {
-    background-color: black;
-    padding-left: 10%;
+
+.bodyGallery {
+    background-color: white;
+    padding-bottom: 50%;
+
+}
+
+.itemE {
+    background-color: #1F1F1F;
+    float: left;
+    width: 35%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.itemD {
+    background-color: #1F1F1F;
+    float: right;
+    width: 35%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.itemfs {
+    float: right;
+}
+
+#imagemDestaque {
+    height: 300px;
+    width: 300px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
