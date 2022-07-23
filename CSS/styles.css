@@ -110,7 +110,7 @@
     position: absolute;
     right: 0;
     margin: auto;
-    margin-right: 4%;
+    margin-right: 6%;
 }
 
 .subDiv-topBtn {
@@ -133,11 +133,11 @@
     border-color: transparent;
     text-align: center;
     color: white;
-    margin-left: 3%;
-    margin-right: 3%;
+    width: 20%;
     font-size: 200%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
+
 }
 
 #footer {
@@ -292,4 +292,20 @@
 .divFooter {
     margin-right: 30%;
     margin-left: 3%;
+}
+
+.buttonSocial {
+    background-color: transparent;
+    border: transparent;
+    width: 15%;
+}
+
+.allSocialBtn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.imagemSocial {
+    width: 40%;
 }
