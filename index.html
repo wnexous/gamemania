@@ -9,62 +9,123 @@
     <title>GM - GameMania</title>
 </head>
 
-<body style="background-color: #1F1F1F;">
+<body style="background-color: #1F1F1F">
+    <header class="header">
+        <div class="topBarCarrousel">
+            <div class="logotop">
+                <div class="subDiv-topBtn">
+                    <a href="https://google.com/">
+                        <img class="logo" src="imagens/LOGO.svg" alt="Logo">
+                    </a>
+                </div>
+            </div>
+            <div class="divSearchBar">
+                <div>
+                    <input type="text" name="text" class="searchBarInput" placeholder="Pesquisar...">
+                </div>
+            </div>
+            <div class="divIconsTop">
+                <div class="subDiv-topBtn">
+                    <a href="https://facebook.com/" class="iconTopLink">
+                        <img src="./imagens/marketicon.png" class="iconTopImage">
+                    </a>
+                    <a href="https://facebook.com/" class="iconTopLink">
+                        <img src="./imagens/profileicon.png" class="iconTopImage">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="divCarrousel">
+            <form class="buttonForm">
+                <button type="submit" s class="arrowButton" style="float:left">
+                    <img src="./imagens/esq.png">
+                </button>
+            </form>
+            <p id="titleCarrousel">Playstation4</p>
+            <span style="width: 5%;"></span>
+            <img src="/imagens/itemCarrousel.jpg" class="imgCassousel">
+            <form class="buttonForm">
+                <button type="submit" s class="arrowButton" style="float:right">
+                    <img src="./imagens/dir.png">
+                </button>
+            </form>
+            </form>
+        </div>
 
-    <div id="topBar">
-        <a href="https://google.com/">
-            <img id="tesss" src="imagens/LOGO.svg" alt="Logo">
-        </a>
-        <input type="text" name="text" id="searchBarInput" placeholder="Pesquisar...">
-        <a href="https://instagram.com/"><img src="imagens\Ellipse.svg"></a>
-        <a href="https://facebook.com/"><img src="imagens\Ellipse.svg"></a>
-        <img src="" alt="">
-    </div>
-
-    <div foto id="foto">
-        <img id="carrousel" src="./imagens/PHOTO_CARROUSEL.jpg">
-        <p id="titleCarrousel">Playstation5</p>
-    </div>
-
-    <div id="barSelection">
-        <a>bah</a>
-    </div>
-    <div class="bodyGallery">
+    </header>
+    <form class="barSelection">
+        <button type="submit" class="itemSelection"
+            formaction="https://lista.mercadolivre.com.br/jogos#D[A:jogos]">JOGOS</button>
+        <button type="submit" class="itemSelection"
+            formaction="https://lista.mercadolivre.com.br/pc-gamer#D[A:pc%20gamer]">PCGAMER</button>
+        <button type="submit" class="itemSelection"
+            formaction="https://lista.mercadolivre.com.br/notebook#D[A:notebook]">NOTEBOOK</button>
+        <button type="submit" class="itemSelection"
+            formaction="https://lista.mercadolivre.com.br/celular#D[A:celular]">CELULARES</button>
+    </form>
+    <form class="bodyGallery">
         <!-- first line gallery -->
-        <a href="https://www.mercadolivre.com.br/microsoft-xbox-series-x-1tb-standard-cor-preto/p/MLB16160759?pdp_filters=category:MLB11172#searchVariation=MLB16160759&position=2&search_layout=grid&type=product&tracking_id=6f8071f1-e4af-454f-8346-a87699823931" class="itemE">
+        <button type="submit"
+            formaction="https://www.mercadolivre.com.br/microsoft-xbox-series-x-1tb-standard-cor-preto/p/MLB16160759?pdp_filters=category:MLB11172#searchVariation=MLB16160759&position=2&search_layout=grid&type=product&tracking_id=6f8071f1-e4af-454f-8346-a87699823931"
+            class="itemE">
             <img id="imagemDestaque" src="./img/ffSk.svg"></img>
-            <p class="title">XBOXSERIEX</p>
+            <h3 class="title">XBOXSERIEX</h3>
             <p class="description">Console XBOX Serie X 512GB</p>
-            <p class="price">R$:100,00</p>
-        </a>
-        <a href="https://www.mercadolivre.com.br/sony-playstation-5-825gb-digital-edition-cor-branco-e-preto/p/MLB16253015?pdp_filters=category:MLB11172#searchVariation=MLB16253015&position=4&search_layout=grid&type=product&tracking_id=0581c42a-1725-4e0e-be8b-c7814ce74feb" class="itemD">
+            <h3 class="price">R$:5045,99</h3>
+        </button>
+        <button type="submit"
+            formaction="https://www.mercadolivre.com.br/sony-playstation-5-825gb-digital-edition-cor-branco-e-preto/p/MLB16253015?pdp_filters=category:MLB11172#searchVariation=MLB16253015&position=4&search_layout=grid&type=product&tracking_id=0581c42a-1725-4e0e-be8b-c7814ce74feb"
+            class="itemD">
             <img id="imagemDestaque" src="./img/fsSk.svg"></img>
-            <p class="title">PLAYSTATION 5</p>
-            <p class="description">PC GAMER</p>
-            <p class="price">R$:100,00</p>
-        </a>
-        <a href="https://www.mercadolivre.com.br/nintendo-switch-32gb-standard-cor-vermelho-neon-azul-neon-e-preto/p/MLB8755483?pdp_filters=category:MLB11172#searchVariation=MLB8755483&position=14&search_layout=grid&type=product&tracking_id=e2fb95b3-daa0-4faa-bb72-276b758720f9" class="itemE">
+            <h3 class="title">PLAYSTATION 5</h3>
+            <p class="description">Console Playstation 5 512GB</p>
+            <h3 class="price">R$:5659,90</h3>
+        </button>
+    </form>
+    <form class="bodyGallery">
+        <button type="submit"
+            formaction="https://www.mercadolivre.com.br/nintendo-switch-32gb-standard-cor-vermelho-neon-azul-neon-e-preto/p/MLB8755483?pdp_filters=category:MLB11172#searchVariation=MLB8755483&position=14&search_layout=grid&type=product&tracking_id=e2fb95b3-daa0-4faa-bb72-276b758720f9"
+            class="itemE">
             <img id="imagemDestaque" src="./img/sfSk.svg"></img>
-            <p class="title">NINTENDO SWITCH</p>
-            <p class="description">PC GAMER</p>
-            <p class="price">R$:100,00</p>
-            
-        </a>
-
-        <a href="https://produto.mercadolivre.com.br/MLB-2068594526-computador-gamer-intel-i5-11400f-16gb-gtx-1650-ssd-240gb-_JM#position=42&search_layout=grid&type=item&tracking_id=0e54aca6-58cf-4aad-9310-8ee3945d183e" class="itemD">
+            <h3 class="title">NINTENDO SWITCH</h3>
+            <p class="description">Nintendo Switch 32GB</p>
+            <h3 class="price">R$:2369,99</h3>
+        </button>
+        <button type="submit"
+            formaction="https://produto.mercadolivre.com.br/MLB-2068594526-computador-gamer-intel-i5-11400f-16gb-gtx-1650-ssd-240gb-_JM#position=42&search_layout=grid&type=item&tracking_id=0e54aca6-58cf-4aad-9310-8ee3945d183e"
+            class="itemD">
             <img id="imagemDestaque" src="./img/ssSk.svg"></img>
-            <p class="title">PC GAMER</p>
-            <p class="description">PC GAMER</p>
-            <p class="price">R$:100,00</p>
-        </a>
-
-    </div>
+            <h3 class="title">PC GAMER</h3>
+            <p class="description">Computador de alto desempenho</p>
+            <h3 class="price">R$:4557,52</h3>
+        </button>
+    </form>
     <div id="spacament">&nbsp;</div>
 
-    <div id="footer">
-
+    <div class="footer">
+        <!-- div 1 -->
+        <div class="divFooter">
+            <p title class="titleFooter">GAMEMANIA</p>
+            <p>
+                <a text class="textFooter" href="https://google.com">FÓRUM</a>
+            </p>
+            <p>
+                <a text class="textFooter" href="https://google.com">FAC</a>
+            </p>
+            <p>
+                <a text class="textFooter" href="https://google.com">AJUDA</a>
+            </p>
+            <p>
+                <a text class="textFooter" href="https://google.com">QUEM SOMOS</a>
+            </p>
+            <p>
+                <a text class="textFooter" href="https://google.com">TRABALHE COM A GENTE</a>
+            </p>
+        </div>
+        <!-- div 2 -->
+        <div>
+            <img src="./imagens/qrcode.png" class="qrcodeFooter">
+        </div>
     </div>
-
 </body>
-
 </html>
