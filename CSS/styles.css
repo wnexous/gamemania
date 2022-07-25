@@ -76,7 +76,7 @@
 }
 
 .header {
-    background-image: url("./imagens/PHOTO_CARROUSEL.jpg");
+    background-image: url("../imagens/PHOTO_CARROUSEL.jpg");
     height: auto;
     justify-content: center;
     padding-bottom: 25%;
